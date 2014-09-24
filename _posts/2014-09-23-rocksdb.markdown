@@ -4,4 +4,9 @@ category: "reading"
 title:  "RocksDB"
 tags: [Database]
 ---
-really complex
+## RocksDB架构
+* memtable
+* sstfile
+* logfile
+	* wal
+
