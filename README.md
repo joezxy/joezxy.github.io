@@ -1,4 +1,4 @@
-panxw.github.com
+joe.github.io
 ================
 
-Personal Blog powered by Jekyll&amp;Gitpage! http://www.winfirm.cn
+Personal Blog powered by Jekyll&amp;Gitpage! 
