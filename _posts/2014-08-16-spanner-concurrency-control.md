@@ -1,8 +1,8 @@
 ---
 layout: post
 category: "read"
-title:  "Spanner's Concurrency Control"
-tags: [Spanner, transaction]
+title:  "Spanner Concurrency Control"
+tags: [Spanner]
 ---
 
 ### 1. Data Model
