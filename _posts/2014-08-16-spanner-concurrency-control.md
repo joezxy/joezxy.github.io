@@ -1,4 +1,9 @@
-# Spanner's Concurrency Control
+---
+layout: post
+category: "read"
+title:  "Spanner's Concurrency Control"
+tags: [Spanner, transaction]
+---
 
 ### 1. Data Model
 Spanner是一个具有事务能力的数据服务。它存储对象的集合。对象被分布到一组服务器上。每个服务器都使用Paxos状态机进行复制，每个复制组在某个时刻有一个主节点。在下面的讨论中，我们将略过复制的内部细节，将每个复制组看作是单个服务器。我们使用大写字母来标记对象，如A，B，C等
