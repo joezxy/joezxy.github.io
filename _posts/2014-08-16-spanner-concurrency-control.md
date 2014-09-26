@@ -2,7 +2,7 @@
 layout: post
 category: "read"
 title:  "Spanner Concurrency Control"
-tags: [Spanner]
+tags: [Spanner, Transaction]
 ---
 
 ### 1. Data Model
