@@ -13,7 +13,7 @@ tags: [Emacs]
 * 文档头部：Ctrl＋<；文档结尾：Ctrl＋>
 
 * 编辑时正常输入，删除时按Backspace和Del
-* 回退：Ctrl＋_（比Ctrl＋x，u好按），如果回退多了，按Ctrl＋f后，再按Ctrl＋_相当于Redo。回退到最初状态：Alt＋x，revert－buffer
+* 回退：Ctrl＋下划线（比Ctrl＋x，u好按），如果回退多了，按Ctrl＋f后，再按Ctrl＋下划线，相当于Redo。回退到最初状态：Alt＋x，revert－buffer
 
 * 保存：Ctrl＋x，Ctrl＋s
 * 另存为：Ctrl＋x，Ctrl＋w
