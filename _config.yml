@@ -1,12 +1,12 @@
 # Site settings
-title: Hackerxu's Blog
-email: 468137306@qq.com
-description: "Python,HTML,CSS,Machine Leaning"
+title: 西周志
+email: joe.zxy@foxmail.com
+description: "Tech Readings"
 permalink: /:year/:month/:day/:title.html
 baseurl: ""
-url: "http://hackerxu.com"
-atom-baseurl: "http://hackerxu.com"
-author: "xuxiao"
+url: "http://joezxy.github.io"
+atom-baseurl: "http://joezxy.github.io"
+author: "joezxy"
 
 # Build settings
 # permalink: date
@@ -23,9 +23,6 @@ redcarpet:
       short_name : taizilongxu
 
 navigations:
-  - title: About
-    class: fa fa-list-ul
-    href: /about/
   - title: Archive
     class: fa fa-tags
     href: /archive/
@@ -35,6 +32,9 @@ navigations:
   - title: Tags
     class: fa fa-film
     href: /tags/
+  - title: About
+    class: fa fa-list-ul
+    href: /about/
   - title: Rss
     class: fa fa-rss
     href: /atom.xml
