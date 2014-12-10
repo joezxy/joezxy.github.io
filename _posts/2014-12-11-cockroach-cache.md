@@ -10,7 +10,8 @@ tags: [Cockroach]
 
 
 一段IntervalCache的示例代码
-```go
+
+```
 func TestIntervalCacheOverlap(t *testing.T) {
 	ic := NewIntervalCache(CacheConfig{Policy: CacheLRU, ShouldEvict: noEviction})
 	ic.Add(ic.NewKey(rangeKey("a"), rangeKey("c")), 1)
