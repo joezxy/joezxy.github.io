@@ -1,14 +1,15 @@
----
+ï»¿---
 layout: post
 category: "code analysis"
 title:  "Cockroach Cache Mechanism"
 tags: [Cockroach, Cache]
 ---
-### CockroachÖĞµÄCache²ã´Î½á¹¹
-![cockroach_cache_hierarchy](../img/20141210_cockroach_cache_hierarchy.png)
+
+### Cockroachä¸­çš„Cacheå±‚æ¬¡ç»“æ„
+![cockroach_cache_hierarchy](../_img/20141210_cockroach_cache_hierarchy.png)
 
 
-ÏÂÃæÊÇÒ»¶ÎIntervalCacheµÄÊ¾Àı´úÂë£º
+ä¸‹é¢æ˜¯ä¸€æ®µIntervalCacheçš„ç¤ºä¾‹ä»£ç 
 ```go
 func TestIntervalCacheOverlap(t *testing.T) {
 	ic := NewIntervalCache(CacheConfig{Policy: CacheLRU, ShouldEvict: noEviction})
