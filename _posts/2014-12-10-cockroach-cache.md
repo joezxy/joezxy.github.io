@@ -4,9 +4,8 @@ category: "code"
 title:  "Cockroach Cache Mechanism"
 tags: [Cockroach, Cache]
 ---
-
 ### Cockroach中的Cache层次结构
-![cockroach_cache_hierarchy](../_img/20141210_cockroach_cache_hierarchy.png)
+![cockroach_cache_hierarchy](https://raw.githubusercontent.com/joezxy/joezxy.github.io/master/_img/20141210_cockroach_cache_hierarchy.png)
 
 
 一段IntervalCache的示例代码
@@ -34,6 +33,8 @@ func TestIntervalCacheOverlap(t *testing.T) {
 	}
 }
 ```
+
 执行结果如下：
-![cockroach_cache_sample](../_img/20141210_cockroach_cache_sample.png)
+
+![cockroach_cache_sample](https://raw.githubusercontent.com/joezxy/joezxy.github.io/master/_img/20141210_cockroach_cache_sample.png)
 
