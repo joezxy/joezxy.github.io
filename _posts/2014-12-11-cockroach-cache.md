@@ -1,11 +1,11 @@
 ---
 layout: post
-category: "env"
+category: "code"
 title:  "Cockroach的Cache机制"
 tags: [Cockroach]
 ---
 
-### Cockroach中的Cache层次结构
+Cockroach中的Cache层次结构
 ![cockroach_cache_hierarchy](https://raw.githubusercontent.com/joezxy/joezxy.github.io/master/_img/20141210_cockroach_cache_hierarchy.png)
 
 
