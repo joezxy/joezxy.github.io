@@ -1,6 +1,6 @@
 ﻿---
 layout: post
-category: "code analysis"
+category: "code"
 title:  "Cockroach Cache Mechanism"
 tags: [Cockroach, Cache]
 ---
@@ -9,7 +9,7 @@ tags: [Cockroach, Cache]
 ![cockroach_cache_hierarchy](../_img/20141210_cockroach_cache_hierarchy.png)
 
 
-下面是一段IntervalCache的示例代码
+一段IntervalCache的示例代码
 ```go
 func TestIntervalCacheOverlap(t *testing.T) {
 	ic := NewIntervalCache(CacheConfig{Policy: CacheLRU, ShouldEvict: noEviction})
@@ -34,4 +34,6 @@ func TestIntervalCacheOverlap(t *testing.T) {
 	}
 }
 ```
+执行结果如下：
+![cockroach_cache_sample](../_img/20141210_cockroach_cache_sample.png)
 
