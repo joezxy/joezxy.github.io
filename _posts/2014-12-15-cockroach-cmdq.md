@@ -6,7 +6,7 @@ tags: [Cockroach]
 ---
 
 Cockroach的每个Range都有一个CommandQueue，内部包含一个IntervalCache，用于将该Range的读写操作进行排队（阻塞等待）。
-```go
+```
 type CommandQueue struct {
 	cache *util.IntervalCache
 }
@@ -27,7 +27,7 @@ func (cq *CommandQueue) Add(start, end proto.Key, readOnly bool) interface{} {
 ```
 
 在Range的addReadOnlyCmd以及addReadWriteCmd方法中，会先调用beginCmd进行请求的排队操作；
-```go
+```
 func (r *Range) beginCmd(start, end proto.Key, readOnly bool) interface{} {
 	r.Lock()
 	var wg sync.WaitGroup
