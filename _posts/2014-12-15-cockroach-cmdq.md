@@ -1,7 +1,7 @@
 ﻿---
 layout: post
 category: "code"
-title:  "Cockroach的CommandQueue"
+title:  "Cockroach的CommandQueue机制"
 tags: [Cockroach]
 ---
 
