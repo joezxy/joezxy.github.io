@@ -1,7 +1,7 @@
 ---
 layout: post
-category: "code"
-title:  "Go语言的Gob编码应用"
+category: "language"
+title:  "Go语言的Gob编码机制应用"
 tags: [Go]
 ---
 
@@ -69,8 +69,6 @@ func main() {
 ```
 
 运行结果为：
+> 1 p1 4
+> 10001 p2 {101}
 
-```ShellSession
-1 p1 4
-10001 p2 {101}
-```
