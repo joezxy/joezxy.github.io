@@ -18,4 +18,6 @@ tags: [Cockroach]
 	* 在客户端使用时，使用HTTPSender进行初始化
 	* 主要的外部方法有Call、Prepare、Flush、RunTransaction四个
 	* 另外，GetI和GetProto均会调用getInternal获取Key的值，而GetI随后使用Gob进行解码，GetProto使用PB进行解码。PutI、PutProto和putInternal同理。PrepareProto会使用PB编码Value，在调用kv.Prepare将其放入Prepare队列中。
-	* 
+	* 在服务端使用时，使用TxnCoordSender进行初始化，负责对接上层的kvREST、Structure、Status等外部HTTP接口。
+	* 此外Range在AdminSplit、AdminMerge、ChangeReplicas时，会使用服务端的client.KV实例
+	
